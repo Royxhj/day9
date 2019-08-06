@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300:400,600");
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "mobile.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.cover {
+  width: 540px;
+  height: 1140px;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.product__box {
+  background-color: white;
+  width: 520px;
+  height: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.product__box .product__image__airpods {
+  width: 470px;
+  height: 430px;
+  margin-top: 15px;
+}
+.product__box .product__detail {
+  display: flex;
+  flex-direction: column;
+}
+.product__box .product__name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.product__box .product__explanation {
+  color: #b2b5bb;
+}
+.product__box .product__price__rank {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.product__box .product__price__airpods {
+  font-size: 22px;
+  font-weight: bold;
+}
+.product__box .product__rank__airpods {
+  display: flex;
+  border-radius: 10px;
+}
+.product__box .rank_color_yellow {
+  color: #f1c05d;
+}
+.product__box .rank_color_gray {
+  color: #b2b5bb;
+  margin-left: 4px;
+}
+.product__box .rank {
+  color: #b2b5bb;
+  font-weight: bold;
+}
+
+.kakao__profile {
+  width: 520px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.kakao__profile .kakao__profile__backgroud {
+  width: 100%;
+  height: 227px;
+}
+.kakao__profile .kakao__profile__bg {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.kakao__profile .kakao__profile__image {
+  height: 118px;
+  width: 118px;
+  position: fixed;
+  margin-top: 160px;
+}
+.kakao__profile .kakao__profile__image__moongchi {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+.kakao__profile .kakao__profile__information {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+.kakao__profile .kakao__profile__name {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.kakao__profile .kakao__profile__job {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b2b5bb;
+}
+.kakao__profile .kakao__profile__action {
+  display: flex;
+  flex-direction: raw;
+  justify-content: space-around;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.kakao__profile .follow {
+  width: 200px;
+  height: 64px;
+  background-color: #6677f9;
+  color: #ebecfe;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.kakao__profile .message {
+  width: 200px;
+  height: 64px;
+  background-color: #ebecfe;
+  color: #6677f9;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
